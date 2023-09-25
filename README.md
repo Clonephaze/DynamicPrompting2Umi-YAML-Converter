@@ -28,7 +28,7 @@ The script will automatically check for the required modules and install them if
 
 ## Known Issues, things  you'll need to manually fix after running the script.
 So at the moment there are a few things I am still working on fixing through my script, and until I figure these out you will need to manually fix them. 
-  - There are instances in files, usually larger files from testing, where "`\   \`" (2 backslashes with 3 spaces) show up in the output file. These can be removed with a replace all operation in a file editor like notepad++.
+  - In some cases, particularly with larger text files, you may encounter "`\   \`" (two backslashes with three spaces) in the output file. These can be easily eliminated using a "Replace All" operation in a file editor like Notepad++. (If anyone has a workaround for automating this process, please share it with me. Despite my attempts to incorporate a feature into the script to remove them, they still appear.)
   - If your original YAML file contains "`*`", they are culled by the script. Consequently, certain tags may not be converted accurately. For example, if you had something like "`__BoConstructions/*-scifi__`" in your original YAML file, it won't point to a working tag in the converted YAML file. Keep in mind that asterisks don't function in UmiAI for searching random tags. You'll need to specify the specific sci-fi elements you want for each instance where you call it. While I suggest making this adjustment before running the script, the choice is ultimately yours.
 
 ## Credits
