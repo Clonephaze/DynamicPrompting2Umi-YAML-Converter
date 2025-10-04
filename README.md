@@ -1,5 +1,7 @@
 # DynamicPrompting2Umi-YAML-Converter
 
+NOTE: Archiving, script is old and I doubt it's even needed anymore.
+
 ## Table of Contents
 - [DynamicPrompting2Umi-YAML-Converter](#dynamicprompting2umi-yaml-converter)
   - [Table of Contents](#table-of-contents)
